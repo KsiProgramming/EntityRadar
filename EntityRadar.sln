@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityRadar.Core", "src\Core\EntityRadar.Core.csproj", "{7FC579F4-C647-470E-914C-C63DF32857FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityRadar.Core.Tests", "tests\Core.Tests\EntityRadar.Core.Tests.csproj", "{E8426B8A-C2B5-4AE0-BE55-6A858D3E0652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7FC579F4-C647-470E-914C-C63DF32857FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC579F4-C647-470E-914C-C63DF32857FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC579F4-C647-470E-914C-C63DF32857FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8426B8A-C2B5-4AE0-BE55-6A858D3E0652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8426B8A-C2B5-4AE0-BE55-6A858D3E0652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8426B8A-C2B5-4AE0-BE55-6A858D3E0652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8426B8A-C2B5-4AE0-BE55-6A858D3E0652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
